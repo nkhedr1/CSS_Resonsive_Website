@@ -1,0 +1,96 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #7d97ad;
+    padding: 5px;
+}
+
+.logo {
+    border-top: 3px solid black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 130px;
+    height:100px; 
+    overflow: hidden;
+    font-size: 100%
+}
+.menu{
+    text-align: end;
+    font-size:20px;
+    text-transform: capitalize;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content{
+    max-width: 1200px;
+    margin:auto;
+}
+.idea {
+    background-color: #c9d1d8;
+    padding-top:5px;
+    padding-bottom: 15px;
+}
+.idea h2{
+    text-align: center;
+}
+.idea p {
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #7d97ad;
+    padding: 10px;
+    margin-top: 15px;
+}
+.nav-footer{ 
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; 
+    }
+@media screen and (max-width: 600px) {
+        .header {
+            flex-direction: column;
+        }
+    
+        div h3 {
+            text-align: left;
+        }
+    
+        .bottom-text {
+            width: 100%;
+        }
+    
+        .form {
+            width: 100%;
+        }
+    
+        .footer {
+            display: block;
+        }
+    }
